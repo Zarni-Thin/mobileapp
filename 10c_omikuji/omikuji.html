@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>おみくじゲーム</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/omikuji.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    </head>
+
+    <body>
+        <div class = "back">
+            <button id="btn99" class="btn" type="button" onclick="history.back()"><i style="font-size:24px" class="fa">&#xf0a8;</i> back </button>
+        </div>
+        <!-- オープニングシャッターアニメーション -->
+        <div class="shutter opening"></div>
+        <header>今日のあなたの運勢（うんせい）は？</header>
+        <div class="wrapper" title="大吉(だいきち)だといいね～">
+           <div class="omikuji">
+                <div id="btn1"></div>
+                <div id="omikujiText">
+                    <img id="omikujiTextImage" src="">
+                </div>
+           </div>
+        </div>
+
+        <footer>
+            <i><p>Copyright 2025 s247060 Zarni Thin</p></i>
+        </footer>
+        
+        <!-- jQueryライブラリを使用する。 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/snowfall.jquery.min.js"></script>
+        <script src="assets/jquery.lettering.js"></script>
+        <script src="assets/jquery.textillate.js"></script>
+
+        <script src="js/omikuji.js"></script>
+    </body>
+</html>
