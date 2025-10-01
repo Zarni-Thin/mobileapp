@@ -111,6 +111,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
 }
 
 .item02{
@@ -120,6 +121,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
 }
 
 .item01 img, .item02 img{
@@ -155,5 +157,18 @@ footer> p {
 @media screen and (max-width: 480px) {
     body{
         background-size: auto 1000px;
+    }
+}
+.fade-in{
+    animation: fadein 1.5s ease-out forwards;
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
