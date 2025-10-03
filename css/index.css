@@ -22,7 +22,7 @@ body{
     Meiryo,
     sans-serif;
     text-align: center;
-    background-image: url(../img/xxxxxxxx.JPG);
+    background-image: url(../img/green.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -37,8 +37,8 @@ header, footer, h1, h2, h3, p, div, .container01, .filler01 {
 /*****************************/
 h1 {
     font: 2em Rajdhani, "Noto Sans JP";
-    color: rgb(181, 242, 252);
-    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    color: rgb(113, 190, 235);
+    background-image: radial-gradient(circle 248px at center, #cff73e 0%, #7ef5c3 47%, #f0fd75 100%);
 }
 
 h2{
@@ -68,7 +68,7 @@ h2{
     padding-left: 0.5em;
     width: 80%;
     border-radius: 0.5em 1.5em;
-    background-color:rgba(245, 245, 245, 0.6);
+    background-color:rgba(245, 245, 245, 0.185);
     box-shadow:0 0 0.5em rgb(73, 72, 72);
 }
 main > p {
