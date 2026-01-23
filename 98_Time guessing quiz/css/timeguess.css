@@ -122,16 +122,27 @@ i {
   justify-content: space-around;
 }
 
-.btn {
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 24px;
-  color: rgb(10, 9, 9);
-  background:   rgb(112, 212, 252);
-  border: solid 2px #e44af8;
-  user-select: none;
-  cursor: pointer;
-  /*カーソルをポインターの形（かたち）にする*/
+.btn{
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* font-size: 24px; */
+    font: italic small-caps bold 16px/2 cursive;
+    background:rgb(26, 212, 212);
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(10, 102, 118, 0.2);
+    outline: 3px ridge #0c7c84;
+    outline-offset: -3px;
+    /* カーソルをポインターの形（わかち）にする */
+}
+.btn:active {
+    transform: translateY(4px);
+    box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #043941;
 }
 
 .js-inactive {
@@ -192,12 +203,25 @@ footer>p {
   text-align: left;
 }
 
-#btn99 {
-  padding: 0.5em;
-  border-radius: 0.3em;
-  color: whitesmoke;
-  font-size: 1.5em;
-  background: rgb(112, 212, 252);
-  cursor: pointer;
-  /*カーソルをポインターの形（かたち）にする*/
+#btn99{
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* font-size: 24px; */
+    font: italic small-caps bold 16px/2 cursive;
+    background:rgb(26, 212, 212);
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(10, 102, 118, 0.2);
+    outline: 3px ridge #0c7c84;
+    outline-offset: -3px;
+    /* カーソルをポインターの形（わかち）にする */
+}
+#btn99:active {
+    transform: translateY(4px);
+    box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #043941;
 }
