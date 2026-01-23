@@ -155,14 +155,27 @@ footer>p {
   text-align: left;
 }
 
-#btn99 {
-  padding: 0.5em;
-  border-radius: 0.3em;
-  color: rgb(126, 241, 31);
-  font-size: 1.5em;
-  background: rgb(32, 25, 28);
-  cursor: pointer;
-  /*カーソルをポインターの形（かたち）にする*/
+#btn99{
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* font-size: 24px; */
+    font: italic small-caps bold 16px/2 cursive;
+    background:rgb(32, 25, 28);
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(10, 102, 118, 0.2);
+    outline: 3px ridge #a0e71d;
+    outline-offset: -3px;
+    /* カーソルをポインターの形（わかち）にする */
+}
+#btn99:active {
+    transform: translateY(4px);
+    box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #043941;
 }
 
 @keyframes textColorChange {

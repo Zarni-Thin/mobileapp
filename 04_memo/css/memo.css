@@ -118,7 +118,16 @@ textarea::placeholder {
   font-size: 1em;
   background: rgb(12, 100, 49);
   cursor: pointer;
+  outline: none;
+  outline-offset: -3px;
   /*カーソルをポインターの形（かたち）にする*/
+}
+#save:active {
+  transform: translateY(4px);
+  box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 rgb(12, 100, 49);
 }
 
 /********************************************************/
@@ -157,15 +166,27 @@ textarea::placeholder {
   text-align: left;
 }
 
-#btn99 {
-  padding: 0.5em;
-  border-radius: 0.3em;
-  color: whitesmoke;
-  font-size: 1.5em;
-  /* background: rgb(12, 100, 49); */
-  background: rgb(72, 194, 98);
-  cursor: pointer;
-  /*カーソルをポインターの形（かたち）にする*/
+#btn99{
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* font-size: 24px; */
+    font: italic small-caps bold 16px/2 cursive;
+    background: rgb(72, 194, 98);
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(233, 40, 40, 0.2);
+    outline: 3px ridge #032704;
+    outline-offset: -3px;
+    /* カーソルをポインターの形（わかち）にする */
+}
+#btn99:active {
+    transform: translateY(4px);
+    box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #305305;
 }
 
 /* table */

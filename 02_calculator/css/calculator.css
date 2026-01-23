@@ -96,15 +96,20 @@ input[type=number] {
   line-height: 1.5em;
   font-size: 2em;
   color: whitesmoke;
-  border-radius: 0.3em;
+  border-radius: 0.1em;
   background: rgb(26, 212, 212);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
   outline: none;
+  outline-offset: -3px;
 }
 #btnEqual:active {
   transform: translateY(4px);
+  box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #0a7586;
 }
 
 #result  {
@@ -138,13 +143,28 @@ footer> p {
 .back{
   text-align: left;
 }
+
 #btn99{
-  padding: 0.5em;
-  border-radius: 0.3em;
-  color: whitesmoke;
-  font-size: 1.5em;
-  background:  rgb(26, 212, 212);
-  cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+    margin-top: 8px;
+    padding: 12px;
+    border-radius: 10px;
+    color: whitesmoke;
+    /* font-size: 24px; */
+    font: italic small-caps bold 16px/2 cursive;
+    background:rgb(26, 212, 212);
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(10, 102, 118, 0.2);
+    outline: 3px ridge #0c7c84;
+    outline-offset: -3px;
+    /* カーソルをポインターの形（わかち）にする */
+}
+#btn99:active {
+    transform: translateY(4px);
+    box-shadow:
+        inset -2px -2px 0 rgba(0, 0, 0, 0.35),
+        inset 2px 2px 0 rgba(255, 255, 255, 0.25),
+        0 2px 0 #043941;
 }
 /*******************************************************/
 /* レスポンシブ対応　メディアクエリを使ってCSSを切り替える */
