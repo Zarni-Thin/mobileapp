@@ -71,7 +71,7 @@ header {
 
 /* for level */
 .level-container{
-    margin: 0px 60px 10px;
+    margin: 0px 60px 9px;
     font-size: 1em;
     font-weight: bold;
 }
@@ -278,5 +278,6 @@ footer>p {
     }
 
 }
+
 
 
